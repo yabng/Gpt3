@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.global-bg {
+    background-color: #030621;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/helvetica.woff2') format('woff2'),
+         url('./fonts/helvetica.woff') format('woff'),
+         url('./fonts/helvetica.ttf') format('truetype');
+    /* Add other font-related properties if necessary */
+  }
